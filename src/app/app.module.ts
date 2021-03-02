@@ -11,13 +11,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import { ProductsComponent } from './products/products.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginformComponent
+    LoginformComponent,
+    ProductsComponent  
   ],
   imports: [
     BrowserModule,
