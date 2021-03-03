@@ -2,7 +2,10 @@
 
     <div class="products">
         <div class="card" *ngFor="let product of products">
-            <p>{{product.name}}</p>
+            <img height="530px" width="370"src="{{product.img}}"/>
+
+                <div class="title">{{product.name || uppercase}}</div>
+                <div class="price">&#36;{{product.price}}</div>
         </div>
     </div>
 </div>
